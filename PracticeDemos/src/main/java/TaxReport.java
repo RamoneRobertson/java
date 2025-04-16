@@ -11,6 +11,7 @@ public class TaxReport {
         System.out.println(calculator.calculateTax());
     }
 
+    // Dependency injection using setter
     public void setCalculator(TaxCalculator calculator) {
         this.calculator = calculator;
     }
