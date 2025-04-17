@@ -1,3 +1,5 @@
+package taxes;
+
 public interface TaxCalculator {
     // In an interface there are no state or data
     // Only method declarations

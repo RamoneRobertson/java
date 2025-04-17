@@ -1,16 +1,16 @@
 package garage;
 
-public class Car {
-    private int speedLimit = ;
-    private String make;
-    private String model;
+public class GasEngine implements Engine {
+    private int torque;
+    private int rpm;
 
-    public Car(String make, String model){
-        this.make = make;
-        this.model = model;
+    public GasEngine(int torque, int rpm){
+        this.torque = torque;
+        this.rpm = rpm;
     }
 
-    public void accelerate(){
+    @Override
+    public void getHorsePower() {
 
     }
 }

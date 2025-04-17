@@ -1,3 +1,5 @@
+package taxes;
+
 public class TaxCalculator2024 implements TaxCalculator {
     private double taxableIncome;
 

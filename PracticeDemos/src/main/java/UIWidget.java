@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface UIWidget {
+public interface UIWidget extends Draggable, Resizable {
+    void render();
 }

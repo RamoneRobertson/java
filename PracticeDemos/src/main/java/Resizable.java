@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface Resizable {
+    // Declare methods
+    void resize();
 }
